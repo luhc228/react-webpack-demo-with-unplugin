@@ -1,0 +1,19 @@
+{
+  "name": "react-webpack-demo-with-unplugin",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": "webpack --config ./webpack.config.js --mode production"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.244",
+    "unplugin": "^0.9.5",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
